@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Amirhossein-Olyanasabnarab/Bazar-cheh#readme",
   "dependencies": {
+    "auto-bind": "^3.0.0",
     "dotenv": "^14.3.2",
     "express": "^5.1.0",
     "mongoose": "^8.18.1",
