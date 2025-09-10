@@ -5,6 +5,10 @@ class AuthService {
     constructor(){
         autoBind(this);
     }
+
+    async sendOtp() {
+        
+    }
 }
 
 module.exports = new AuthService();
