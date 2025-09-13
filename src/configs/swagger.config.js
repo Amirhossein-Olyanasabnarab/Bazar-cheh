@@ -14,7 +14,7 @@ function setupSwagger(app) {
         },
       },
     },
-    apis: [], // Path to the API docs
+    apis: [process.cwd() + "/src/modules/**/*.swagger.js"], // Path to the API docs
   });
 
   const swagger = swaggerUi.setup(options, {});
